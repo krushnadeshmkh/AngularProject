@@ -1,0 +1,46 @@
+#one {
+    background:linear-gradient(rgb(14, 234, 197),rgb(255, 255, 255));
+    border: 3px solid black;
+    display: flex;
+}
+#one h1{
+    margin: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#one #two{
+    margin: 10px;
+    width: 50%;
+    position: relative;
+    left: 5%;
+    border-radius: 5px;
+}
+#three #three{
+    position: absolute;
+    left: 68%;
+    top: 13px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#three ul{
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    top: 13px;
+    left: 80%;
+
+}
+#three ul #a{
+    padding: 5px;
+    border: 2px solid black;
+    background:linear-gradient(rgb(2, 165, 92),rgb(172, 201, 8));
+    border-radius: 5px;
+
+
+}
+#three ul a{
+    padding: 5px;
+    border: 2px solid black;
+    background:linear-gradient(rgb(2, 165, 92),rgb(172, 201, 8));
+    border-radius: 5px;
+}

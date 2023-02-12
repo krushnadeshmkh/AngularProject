@@ -1,0 +1,18 @@
+
+<div id="two">
+    <table>
+        <tr>
+            <th id="a">id</th>
+            <th id=b>price</th>
+            <th id="c">name</th>
+            <th id="d">image</th>
+        </tr>
+        <tr *ngFor="let items of products">
+            <td id="e">{{ items.id }}</td>
+            <td id="f">{{ items.price }}</td>
+            <td id="g">{{ items.name }}</td>
+            <td><img src="{{ items.Image }}" alt=""></td>
+            <td><button (click)="happy()">order</button></td>
+           
+        </tr>
+    </table>

@@ -1,0 +1,127 @@
+#one{
+    background:radial-gradient(rgb(215, 215, 21),rgb(190, 6, 190));
+    height: auto;
+    width: 100%;
+    display: flex;
+
+}
+#one h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left:5% ;
+
+}
+#one #kad{
+    width: 50%;
+    height: 10%;
+    margin: 10px;
+    display: block;
+    position: relative;
+    left: 15%;
+
+}
+#one ul{
+    display: flex;
+    position: relative;
+    left: 20%;
+   
+}
+#one ul li{
+    padding: 10px;
+    background-color:white;
+    text-decoration: none;
+    margin-top: 5%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+#one a{
+    position: relative;
+    left: 20%;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+}
+#two{
+    width: 100%;
+    height: auto;
+    background: radial-gradient(black,white);
+}
+
+#two table img{
+    width: 15%;
+    position: relative;
+    left: 72%;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 5sec;
+    transition-timing-function: ease-in-out;
+
+}
+#two table img:hover{
+    transform: scale(110%);
+}
+table{
+    border: 3px solid black;
+    width: 60%;
+    background:radial-gradient(rgb(179, 212, 49),#f5efef);
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    top: 10px;
+    box-shadow: 5px gray;
+    
+
+}
+#two table tr #d{
+    position: relative;
+    left: 55%;
+    font-size:large;
+}
+#two table tr #a{
+    position: relative;
+    left: 7%;
+    font-size:large;
+}
+#two table tr #b{
+    position: relative;
+    left: 20%;
+    font-size:large;
+}
+
+#two table tr #c{
+    position: relative;
+    left: 40%;
+    padding: 5px;
+    font-size:large;
+
+}
+#two table tr #f{
+    position: relative;
+    left:20%;
+    padding: 5px;
+    font-size:large;
+}
+#two table tr #g{
+    position: relative;
+    left:40%;
+    padding: 5px;
+    font-size:large;
+}
+#two table tr #e{
+    position: relative;
+    left:7%;
+    padding: 5px;
+    font-size:large;
+}
+#two table tr button{
+    position: relative;
+    right:90%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
